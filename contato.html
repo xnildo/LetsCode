@@ -11,23 +11,23 @@
       <nav><a href="./index.html">voltar</a></nav>
     </header>
     <h1>Entrar em Contato:</h1>
-    <form action="">
-      <label for="">Nome:</label>
-      <input type="texto" /><br />
+    <p>Endereço: Rua Arraia nº70 Jd São Carlos Itapevi</p>
+    <p>Tell: 55 11978657843</p>
+    <p>E-mail: xznildo@gmail.com</p>
+
+    <form action="mailto:xznildo@gmail.com" method="POST" enctype="text/plain">
+      <label for="" >Nome:</label>
+      <input type="texto" name="nome" /><br />
       <br />
 
       <label for="">E-mail:</label>
-      <input type="email" /><br />
+      <input type="email" name="email" /><br />
       <br />
 
-      <label for="">Assunto:</label>
-      <input type="texto" /><br />
-      <br />
+      <label for="">Mensagem:</label><br />
+      <textarea  cols="30" rows="10" name="mensagem"></textarea><br /><br>
 
-      <label for="">Texto:</label><br />
-      <textarea name="" id="" cols="30" rows="10"></textarea><br />
-
-      <button>Enviar</button>
+      <input type="submit" value="Enviar">
     </form>
   </body>
 </html>
